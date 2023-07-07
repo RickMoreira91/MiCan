@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MiCan</string>
+    <string name="tvMiCan">Mi Can</string>
+    <string name="tvLogin">Inicio de Sesión</string>
+    <string name="hint_login_user">Usuario</string>
+    <string name="hint_login_password">Contraseña</string>
+    <string name="btnLogin">ACEPTAR</string>
+</resources>
