@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--Estructura de como se mostrara la info en el recycler view-->
+
+    <TextView
+        android:id="@+id/tvNumVacuna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Numero Vacuna"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="2dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tvEstado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Estado"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tvVacuna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vacuna"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tvDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripcion"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tvNumEnfermedad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Numero Enfermedad"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
