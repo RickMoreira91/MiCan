@@ -62,6 +62,8 @@
                 android:layout_marginBottom="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
+                android:clickable="true"
+                android:focusable="true"
                 app:cardElevation="8dp"
                 app:cardCornerRadius="8dp">
 
@@ -70,15 +72,15 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:orientation="vertical"
-                    android:padding="16dp">
+                    android:padding="16dp"
+                    tools:ignore="UseCompoundDrawables">
 
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
-                        android:clickable="true"
                         android:src="@drawable/clienteicon"
-                        tools:ignore="ContentDescription,KeyboardInaccessibleWidget,SpeakableTextPresentCheck" />
+                        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -103,6 +105,8 @@
                 android:layout_marginBottom="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
+                android:clickable="true"
+                android:focusable="true"
                 app:cardElevation="8dp"
                 app:cardCornerRadius="8dp">
 
@@ -113,12 +117,13 @@
                     android:layout_gravity="center"
                     android:orientation="vertical"
                     tools:ignore="UseCompoundDrawables">
+
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:src="@drawable/mascotaicon"
-                        tools:ignore="ContentDescription" />
+                        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -142,6 +147,8 @@
                 android:layout_marginBottom="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
+                android:clickable="true"
+                android:focusable="true"
                 app:cardElevation="8dp"
                 app:cardCornerRadius="8dp">
 
@@ -152,12 +159,13 @@
                     android:layout_gravity="center"
                     android:orientation="vertical"
                     tools:ignore="UseCompoundDrawables">
+
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:src="@drawable/empleadoicon"
-                        tools:ignore="ContentDescription" />
+                        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -181,6 +189,8 @@
                 android:layout_marginBottom="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
+                android:clickable="true"
+                android:focusable="true"
                 app:cardElevation="8dp"
                 app:cardCornerRadius="8dp">
 
@@ -191,12 +201,13 @@
                     android:layout_gravity="center"
                     android:orientation="vertical"
                     tools:ignore="UseCompoundDrawables">
+
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:src="@drawable/citaicon"
-                        tools:ignore="ContentDescription" />
+                        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -220,6 +231,8 @@
                 android:layout_marginBottom="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
+                android:clickable="true"
+                android:focusable="true"
                 app:cardElevation="8dp"
                 app:cardCornerRadius="8dp">
 
@@ -230,12 +243,13 @@
                     android:layout_gravity="center"
                     android:orientation="vertical"
                     tools:ignore="UseCompoundDrawables">
+
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:src="@drawable/servicioicon"
-                        tools:ignore="ContentDescription" />
+                        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -259,6 +273,8 @@
                 android:layout_marginBottom="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
+                android:clickable="true"
+                android:focusable="true"
                 app:cardElevation="8dp"
                 app:cardCornerRadius="8dp">
 
@@ -269,12 +285,13 @@
                     android:layout_gravity="center"
                     android:orientation="vertical"
                     tools:ignore="UseCompoundDrawables">
+
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:src="@drawable/antecedenteicon"
-                        tools:ignore="ContentDescription" />
+                        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -298,6 +315,8 @@
                 android:layout_marginBottom="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
+                android:clickable="true"
+                android:focusable="true"
                 app:cardElevation="8dp"
                 app:cardCornerRadius="8dp">
 
@@ -308,12 +327,13 @@
                     android:layout_gravity="center"
                     android:orientation="vertical"
                     tools:ignore="UseCompoundDrawables">
+
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:src="@drawable/enfermedadicon"
-                        tools:ignore="ContentDescription" />
+                        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -337,6 +357,8 @@
                 android:layout_marginBottom="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
+                android:clickable="true"
+                android:focusable="true"
                 app:cardElevation="8dp"
                 app:cardCornerRadius="8dp">
 
@@ -347,12 +369,13 @@
                     android:layout_gravity="center"
                     android:orientation="vertical"
                     tools:ignore="UseCompoundDrawables">
+
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:src="@drawable/historialicon"
-                        tools:ignore="ContentDescription" />
+                        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -376,6 +399,8 @@
                 android:layout_marginBottom="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
+                android:clickable="true"
+                android:focusable="true"
                 app:cardElevation="8dp"
                 app:cardCornerRadius="8dp">
 
@@ -415,6 +440,8 @@
                 android:layout_marginBottom="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
+                android:clickable="true"
+                android:focusable="true"
                 app:cardElevation="8dp"
                 app:cardCornerRadius="8dp">
 
@@ -454,6 +481,8 @@
                 android:layout_marginBottom="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
+                android:clickable="true"
+                android:focusable="true"
                 app:cardElevation="8dp"
                 app:cardCornerRadius="8dp">
 

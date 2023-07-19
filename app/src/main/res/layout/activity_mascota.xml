@@ -6,42 +6,8 @@
     android:layout_height="match_parent"
     android:background="@color/bg"
     android:weightSum="10"
-    tools:context=".MascotaActivity">
+    tools:context=".MascotaActivity"
+    tools:ignore="SpeakableTextPresentCheck">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <RelativeLayout
-            android:layout_margin="5dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="30dp"
-                android:layout_marginTop="13dp"
-                android:text="Mi Can App"
-                android:textColor="@color/bg_top"
-                android:textSize="36dp"
-                android:textStyle="bold"
-                tools:ignore="HardcodedText,SpUsage,TextContrastCheck" />
-
-            <ImageView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:layout_alignParentRight="true"
-                android:layout_marginEnd="30dp"
-                android:elevation="10dp"
-                android:src="@drawable/micanlogo"
-                tools:ignore="ContentDescription,RtlHardcoded,ImageContrastCheck" />
-
-        </RelativeLayout>
-
-    </LinearLayout>
 
 </ScrollView>

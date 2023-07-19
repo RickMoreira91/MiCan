@@ -58,6 +58,9 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
         } else if (id == R.id.cvEmpleado){
             i=new Intent(this,EmpleadoActivity.class);
             startActivity(i);
+        } else if (id == R.id.cvCita){
+            i=new Intent(this,CitaActivity.class);
+            startActivity(i);
         } else if (id == R.id.cvServicios){
             i=new Intent(this,ServiciosActivity.class);
             startActivity(i);

@@ -1,46 +1,259 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bg"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText"
     tools:context=".ClienteActivity">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_margin="10dp"
+        tools:ignore="UselessParent">
 
-        <RelativeLayout
-            android:layout_margin="5dp"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="30dp"
-                android:layout_marginTop="13dp"
-                android:text="Mi Can App"
-                android:textColor="@color/bg_top"
-                android:textSize="36dp"
-                android:textStyle="bold"
-                tools:ignore="HardcodedText,SpUsage,TextContrastCheck" />
+            android:orientation="vertical">
 
             <ImageView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:layout_alignParentRight="true"
-                android:layout_marginEnd="30dp"
-                android:elevation="10dp"
-                android:src="@drawable/micanlogo"
-                tools:ignore="ContentDescription,RtlHardcoded,ImageContrastCheck" />
+                android:id="@+id/ivCliente"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/clienteicon"
+                tools:ignore="ContentDescription" />
 
-        </RelativeLayout>
+            <TextView
+                android:id="@+id/viewNumeroCliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:textColor="@color/black"
+                android:text="Numero Cliente:" />
 
-    </LinearLayout>
+            <EditText
+                android:id="@+id/etNumeroCliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:singleLine="true"
+                tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TextFields,VisualLintTextFieldSize" />
 
-</ScrollView>
+            <TextView
+                android:id="@+id/viewEstadoCliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:textColor="@color/black"
+                android:text="Estado Cliente:" />
+
+            <EditText
+                android:id="@+id/etEstadoCliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:singleLine="true"
+                tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TextFields,VisualLintTextFieldSize" />
+
+            <TextView
+                android:id="@+id/viewNombreCliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:textColor="@color/black"
+                android:text="Nombre Cliente:" />
+
+            <EditText
+                android:id="@+id/etNombreCliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:singleLine="true"
+                tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TextFields,VisualLintTextFieldSize" />
+
+            <TextView
+                android:id="@+id/viewApellidoCliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:textColor="@color/black"
+                android:text="Apellido Cliente:" />
+
+            <EditText
+                android:id="@+id/etApellidoCliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:singleLine="true"
+                tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TextFields,VisualLintTextFieldSize" />
+
+            <TextView
+                android:id="@+id/viewTipoDocCliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:textColor="@color/black"
+                android:text="Tipo Documento Cliente:" />
+
+            <EditText
+                android:id="@+id/etTipoDocCliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:singleLine="true"
+                tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TextFields,VisualLintTextFieldSize" />
+
+            <TextView
+                android:id="@+id/viewDireccionCliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:textColor="@color/black"
+                android:text="Direccion Cliente:" />
+
+            <EditText
+                android:id="@+id/etDireccionCliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:singleLine="true"
+                tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TextFields,VisualLintTextFieldSize" />
+
+            <TextView
+                android:id="@+id/viewTelefonoCliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:textColor="@color/black"
+                android:text="Telefono Cliente:" />
+
+            <EditText
+                android:id="@+id/etTelefonoCliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="16"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:singleLine="true"
+                tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TextFields,VisualLintTextFieldSize" />
+
+            <TextView
+                android:id="@+id/viewCorreoCliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:textColor="@color/black"
+                android:text="Correo Cliente:" />
+
+            <EditText
+                android:id="@+id/etCorreoCliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:singleLine="true"
+                tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TextFields,VisualLintTextFieldSize" />
+
+            <TextView
+                android:id="@+id/viewNumSeguroCliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:textColor="@color/black"
+                android:text="Numero Seguro Cliente:" />
+
+            <EditText
+                android:id="@+id/etNumSeguroCliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:singleLine="true"
+                tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TextFields,VisualLintTextFieldSize" />
+
+            <TextView
+                android:id="@+id/viewNumCargoCliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:textColor="@color/black"
+                android:text="Numero Cargo Cliente:" />
+
+            <EditText
+                android:id="@+id/etNumCargoCliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:singleLine="true"
+                tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TextFields,VisualLintTextFieldSize" />
+
+            <TextView
+                android:id="@+id/viewSexoCliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:textColor="@color/black"
+                android:text="Sexo Cliente:" />
+
+            <EditText
+                android:id="@+id/etSexoCliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:singleLine="true"
+                tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TextFields,VisualLintTextFieldSize" />
+
+            <TextView
+                android:id="@+id/viewFechaRegistroCliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:textColor="@color/black"
+                android:text="Fecha Registro Cliente:" />
+
+            <EditText
+                android:id="@+id/etFechaRegistroCliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:singleLine="true"
+                tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TextFields,VisualLintTextFieldSize" />
+
+            <TextView
+                android:id="@+id/viewFechaModCliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:textColor="@color/black"
+                android:text="Fecha Modificacion Cliente:" />
+
+            <EditText
+                android:id="@+id/etFechaModCliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:singleLine="true"
+                tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TextFields,VisualLintTextFieldSize" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
