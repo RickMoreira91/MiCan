@@ -7,4 +7,6 @@
     <color name="bg_bottom">#88CCAD</color>
     <color name="btn_press">#FE9901</color>
     <color name="btn_no_press">#ED8803</color>
+
+    <color name="bg">#93F4C8</color>
 </resources>

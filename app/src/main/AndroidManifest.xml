@@ -13,6 +13,39 @@
         android:theme="@style/Theme.MiCan"
         tools:targetApi="31">
         <activity
+            android:name=".CitaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VacunasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HistorialActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AntecedentesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EnfermedadesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AjustesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ServiciosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmpleadoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MascotaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ClienteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity
             android:name=".LoginActivity"
             android:exported="false" />
         <activity
