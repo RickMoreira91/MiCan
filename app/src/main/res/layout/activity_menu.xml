@@ -24,11 +24,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="13dp"
-                android:text="Mi Can App"
+                android:text="@string/tvMiCan"
                 android:textColor="@color/bg_top"
                 android:textSize="36dp"
                 android:textStyle="bold"
-                tools:ignore="HardcodedText,SpUsage,TextContrastCheck" />
+                tools:ignore="RelativeOverlap,SpUsage,TextContrastCheck" />
 
             <ImageView
                 android:layout_width="80dp"
@@ -52,49 +52,6 @@
             android:layout_height="wrap_content"
             android:padding="12dp"
             tools:ignore="InefficientWeight">
-
-            <androidx.cardview.widget.CardView
-                android:id="@+id/cvCliente"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:layout_marginBottom="16dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
-                android:clickable="true"
-                android:focusable="true"
-                app:cardElevation="8dp"
-                app:cardCornerRadius="8dp">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:orientation="vertical"
-                    android:padding="16dp"
-                    tools:ignore="UseCompoundDrawables">
-
-                    <ImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_gravity="center"
-                        android:src="@drawable/clienteicon"
-                        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Cliente"
-                        android:textColor="@color/black"
-                        android:textSize="18sp"
-                        android:textStyle="bold"
-                        android:layout_gravity="center"
-                        tools:ignore="HardcodedText" />
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cvMascota"
@@ -127,12 +84,11 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Mascota"
+                        android:text="@string/cvMascota"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        android:layout_gravity="center"
-                        tools:ignore="HardcodedText" />
+                        android:layout_gravity="center"/>
 
                 </LinearLayout>
 
@@ -169,12 +125,11 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Empleado"
+                        android:text="@string/cvEmpleado"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        android:layout_gravity="center"
-                        tools:ignore="HardcodedText" />
+                        android:layout_gravity="center" />
 
                 </LinearLayout>
 
@@ -211,12 +166,11 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Citas"
+                        android:text="@string/cvCita"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        android:layout_gravity="center"
-                        tools:ignore="HardcodedText" />
+                        android:layout_gravity="center"/>
 
                 </LinearLayout>
 
@@ -253,12 +207,11 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Servicios"
+                        android:text="@string/cvServicios"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        android:layout_gravity="center"
-                        tools:ignore="HardcodedText" />
+                        android:layout_gravity="center"/>
 
                 </LinearLayout>
 
@@ -295,12 +248,11 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Antecedentes"
+                        android:text="@string/cvAntecedentes"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        android:layout_gravity="center"
-                        tools:ignore="HardcodedText" />
+                        android:layout_gravity="center"/>
 
                 </LinearLayout>
 
@@ -337,12 +289,11 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Enfermedades"
+                        android:text="@string/cvEnfermedades"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        android:layout_gravity="center"
-                        tools:ignore="HardcodedText" />
+                        android:layout_gravity="center"/>
 
                 </LinearLayout>
 
@@ -379,12 +330,11 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Historial"
+                        android:text="@string/cvHistorial"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        android:layout_gravity="center"
-                        tools:ignore="HardcodedText" />
+                        android:layout_gravity="center" />
 
                 </LinearLayout>
 
@@ -420,12 +370,11 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Vacunas"
+                        android:text="@string/cvVacunas"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        android:layout_gravity="center"
-                        tools:ignore="HardcodedText" />
+                        android:layout_gravity="center"/>
 
                 </LinearLayout>
 
@@ -461,12 +410,11 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Ajustes"
+                        android:text="@string/cvAjustes"
                         android:textColor="@color/black"
-                        android:textSize="18sp"
+                        android:textSize="20sp"
                         android:textStyle="bold"
-                        android:layout_gravity="center"
-                        tools:ignore="HardcodedText" />
+                        android:layout_gravity="center"/>
 
                 </LinearLayout>
 
@@ -502,12 +450,11 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Salir"
+                        android:text="@string/cvSalir"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold"
-                        android:layout_gravity="center"
-                        tools:ignore="HardcodedText" />
+                        android:layout_gravity="center"/>
 
                 </LinearLayout>
 

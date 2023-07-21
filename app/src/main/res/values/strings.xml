@@ -1,8 +1,93 @@
 <resources>
     <string name="app_name">MiCan</string>
     <string name="tvMiCan">Mi Can App</string>
+
+    <!--Strings de login-->
     <string name="tvLogin">Inicio de Sesión</string>
     <string name="hint_login_user">Usuario</string>
     <string name="hint_login_password">Contraseña</string>
     <string name="btnLogin">ACEPTAR</string>
+
+    <!--Strings de menu-->
+    <string name="cvMascota">Mascota</string>
+    <string name="cvEmpleado">Empleado</string>
+    <string name="cvCita">Cita</string>
+    <string name="cvServicios">Servicios</string>
+    <string name="cvAntecedentes">Antecedentes</string>
+    <string name="cvEnfermedades">Enfermedades</string>
+    <string name="cvHistorial">Historial</string>
+    <string name="cvVacunas">Vacunas</string>
+    <string name="cvAjustes">Ajustes</string>
+    <string name="cvSalir">Salir</string>
+
+    <!--Strings de lista de mascotas-->
+    <string name="tvNumMascota">Numero Mascota</string>
+    <string name="tvEstadoMascota">Estado Mascota</string>
+    <string name="tvNombreMascota">Nombre Mascota</string>
+    <string name="tvNumEspecieMascota">Especie Mascota</string>
+    <string name="tvFechaNacimientoMascota">Fecha Nacimiento</string>
+    <string name="tvRazaMascota">Raza Mascota</string>
+    <string name="tvColorMascota">Color Mascota</string>
+    <string name="tvSexoMascota">Genero Mascota</string>
+    <string name="tvDescripcionMascota">Descripcion</string>
+    <string name="tvFechaRegistroMascota">Fecha Registro Mascota</string>
+
+    <!--Strings de lista de empleados-->
+    <string name="tvNumEmpleado">Numero Empleado</string>
+    <string name="tvEstadoEmpleado">Estado Empleado</string>
+    <string name="tvNombreEmpleado">Nombre(s) Empleado</string>
+    <string name="tvApellidoEmpleado">Apellido(s) Empleado</string>
+    <string name="tvTipDocEmpleado">Tipo de Documento</string>
+    <string name="tvDireccionEmpleado">Direccion Empleado</string>
+    <string name="tvTelefonoEmpleado">Telefono Empleado</string>
+    <string name="tvCorreoEmpleado">Correo Empleado</string>
+    <string name="tvNumSeguroEmpleado">Numero Seguro Empleado</string>
+    <string name="tvNumCargoEmpleado">Numero Cargo Empleado</string>
+    <string name="tvSexoEmpleado">Genero Empleado</string>
+    <string name="tvFechaRegistroEmpleado">Fecha Registro Empleado</string>
+
+    <!--Strings de lista de citas-->
+    <string name="tvNumCita">Numero Cita</string>
+    <string name="tvEstadoCita">Estado Cita</string>
+    <string name="tvNombreCliente">Nombre(s) Cliente</string>
+    <string name="tvNombrePaciente">Nombre(s) Paciente</string>
+    <string name="tvDescripcionCita">Descripcion Cita</string>
+    <string name="tvFechaCita">Fecha Cita</string>
+
+    <!--Strings de lista de antecedentes-->
+    <string name="tvNumAntecedente">Numero Antecedente</string>
+    <string name="tvEstadoAntecedente">Estado Antecedente</string>
+    <string name="tvEstadoAnimo">Estado Animo</string>
+    <string name="tvIngestion">Ingestion</string>
+    <string name="tvNarizSeca">Nariz Seca</string>
+    <string name="tvNumPacienteAntecedente">Numero Paciente</string>
+    <string name="tvFechaAntecedente">Fecha Antecedente</string>
+
+    <!--Strings de lista de historial-->
+    <string name="tvNumHistorial">Numero Historial</string>
+    <string name="tvEstadoHistorial">Estado Historial</string>
+    <string name="tvNumPacienteHistorial">Numero Paciente Historial</string>
+    <string name="tvNumEnfermedadHistorial">Numero Enfermedad Historial</string>
+    <string name="tvFechaHistorial">Fecha Historial</string>
+
+    <!--Strings de lista de enfermedades-->
+    <string name="tvNumEnfermedad">Numero Enfermedad</string>
+    <string name="tvEstadoEnfermedad">Estado Enfermedad</string>
+    <string name="tvEnfermedad">Enfermedad</string>
+    <string name="tvDescripcionEnfermedad">Descripcion Enfermedad</string>
+
+    <!--Strings de agendar citas-->
+    <string name="tvNumCliente">Numero Cliente</string>
+    <string name="tvNumPaciente">Numero Paciente</string>
+
+    <!--Strings de ajustes-->
+    <string name="cvCambioContrasena">Cambiar Contraseña</string>
+
+    <!--Strings de cambiar contrasena-->
+    <string name="etContrasenaActual">Ingrese Contraseña Actual</string>
+    <string name="etNuevaContrasena">Ingrese Nueva Contraseña</string>
+    <string name="etConfirmarNuevaContrasena">Confirmar Nueva Contraseña</string>
+
+    <!--Strings de cambiar tema-->
+    <string name="switchTema">Light Mode</string>
 </resources>

@@ -1,33 +1,33 @@
 package com.rdmm91.mican;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.RecyclerView;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
+import android.widget.EditText;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
-public class CitaActivity extends AppCompatActivity {
+public class CambiarContrasenaActivity extends AppCompatActivity {
 
-    RecyclerView listaCita;
-    FloatingActionButton fabAgendarCita;
+    EditText etContrasenaActual, etNuevaContrasena, etConfirmarNuevaContrasena;
+    FloatingActionButton fabGuardarContrasena;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cita);
+        setContentView(R.layout.activity_cambiar_contrasena);
 
-        listaCita = findViewById(R.id.listaCita);
-        fabAgendarCita = findViewById(R.id.fabAgendarCita);
+        etContrasenaActual = findViewById(R.id.etContrasenaActual);
+        etNuevaContrasena = findViewById(R.id.etNuevaContrasena);
+        etConfirmarNuevaContrasena = findViewById(R.id.etConfirmarNuevaContrasena);
+        fabGuardarContrasena = findViewById(R.id.fabGuardarContrasena);
 
-        fabAgendarCita.setOnClickListener(new View.OnClickListener() {
+        fabGuardarContrasena.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(CitaActivity.this, AgendarCitaActivity.class);
-                startActivity(intent);
+                finish();
             }
         });
     }

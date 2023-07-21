@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:background="@color/bg"
     android:orientation="vertical"
-    tools:ignore="HardcodedText"
     tools:context=".HistorialActivity">
 
     <ScrollView
@@ -21,7 +20,7 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/ivAntecedentes"
+                android:id="@+id/ivHistorial"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_gravity="center"

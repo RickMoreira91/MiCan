@@ -12,14 +12,13 @@ import android.view.View;
 
 public class MenuActivity extends AppCompatActivity implements View.OnClickListener {
 
-    CardView cvCliente, cvMascota, cvEmpleado, cvCita, cvServicios, cvAntecedentes, cvEnfermedades, cvHistorial, cvVacunas, cvAjustes, cvSalir;
+    CardView cvMascota, cvEmpleado, cvCita, cvServicios, cvAntecedentes, cvEnfermedades, cvHistorial, cvVacunas, cvAjustes, cvSalir;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
 
-        cvCliente = findViewById(R.id.cvCliente);
         cvMascota = findViewById(R.id.cvMascota);
         cvEmpleado = findViewById(R.id.cvEmpleado);
         cvCita = findViewById(R.id.cvCita);
@@ -31,7 +30,6 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
         cvAjustes = findViewById(R.id.cvAjustes);
         cvSalir = findViewById(R.id.cvSalir);
 
-        cvCliente.setOnClickListener(this);
         cvMascota.setOnClickListener(this);
         cvEmpleado.setOnClickListener(this);
         cvCita.setOnClickListener(this);
@@ -49,10 +47,7 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
         Intent i;
 
         int id = v.getId();
-        if (id == R.id.cvCliente){
-            i=new Intent(this,ClienteActivity.class);
-            startActivity(i);
-        } else if (id == R.id.cvMascota){
+        if (id == R.id.cvMascota){
             i=new Intent(this,MascotaActivity.class);
             startActivity(i);
         } else if (id == R.id.cvEmpleado){
